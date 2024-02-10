@@ -19,7 +19,6 @@ double Payment(double extra, double hours, double base){
 
     value = (extra * extraHoursValue) + (hours * normalHoursValue) ;
 
-
     return value;
 }
 
@@ -42,5 +41,5 @@ int main(){
     payment = Payment(extraHours, normalHours, baseSalary);
     printf("Payment: %.2f", payment);
     
-
+    return 0;
 }
