@@ -19,8 +19,8 @@
 - Vetores
 
   - Fazer um programa que declare e inicialize um vetor de 10 posições para guardar números inteiros.
-    Calcule e mostre: a média dos valores digitados, a quantidade de números pares, a quantidade de
-    números ímpares.
+  Calcule e mostre: a média dos valores digitados, a quantidade de números pares, a quantidade de
+  números ímpares.
 
 - Struct
 
