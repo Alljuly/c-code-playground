@@ -5,11 +5,20 @@ Bem-vindo ao meu playground de código em C! Este repositório contém uma cole�
 ### Revisão
 
 1. Linguagem C
+
    - Cálculo de Salário
    - Situação Peso
    - Estatisticas Municipais
    - Vetores
    - Struct
+
+2. Recursividade
+   - Exponeciação
+   - Fibonacci
+   - Soma
+
+3. Pilhas
+
 
 ## Como Utilizar
 
