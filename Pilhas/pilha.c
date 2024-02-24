@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// antes de inserir ou tirar é preciso verificar se a pilha esta vazia
-int isVoid(Pilha *pilha) {
+int isEmpty(Pilha *pilha) {
   if (pilha->topo == -1) {
     return 1;
   } else {
@@ -11,8 +10,6 @@ int isVoid(Pilha *pilha) {
   }
 }
 
-// recebe um numero para colocar no topo da pilha
-// realocar espaço na memoria a cada push
 void push(Pilha *pilha) {
   int i;
   pilha->tam++;
@@ -28,7 +25,7 @@ void push(Pilha *pilha) {
 
 // remove o topo da pilha
 void pop(Pilha *pilha) {
-  if (!isVoid(pilha)) {
+  if (!isEmpty(pilha)) {
     pilha->topo--;
   } else {
     printf("A pilha esta vazia");
@@ -40,11 +37,10 @@ void list(Pilha *pilha) {
 
   int n = pilha->topo;
 
-  if (!isVoid(pilha)) {
-    for (int i = n; i <= pilha->tam; i--) {
-      if (pilha->vet[i] != 0) {
-        printf("%i\n", pilha->vet[i]);
-      }
+  if (!isEmpty(pilha)) {
+    for (int i = n; i >= 0; i--) {
+
+      printf("posicao: %i %i\n", i, pilha->vet[i]);
     }
   } else {
     printf("A pilha esta vazia");

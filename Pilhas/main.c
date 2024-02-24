@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "pilha.c"
 #include "pilha.h"
 
 int main() {
-  // ao criar a pilha preciso passar o tamanho, topo, e vet
-  Pilha pilha = {0, -1, NULL};
+  Pilha pilha = {0, -1, 0};
   char aux = ' ';
 
   while (aux != 's') {
@@ -15,12 +15,14 @@ int main() {
 
     case 'i':
       push(&pilha);
-      break;
+      continue;
     case 'l':
       list(&pilha);
-      break;
+      continue;
     case 'e':
       pop(&pilha);
+      continue;
+    case 's':
       break;
     }
 
