@@ -1,4 +1,4 @@
-# Playground de Código em C
+# C Code Playground
 
 Bem-vindo ao meu playground de código em C! Este repositório contém uma coleção de programas em C desenvolvidos para a matéria de Estrutura de Dados.
 
@@ -18,6 +18,8 @@ Bem-vindo ao meu playground de código em C! Este repositório contém uma cole�
    - Soma
 
 3. Pilhas
+   
+4. Busca e Ordenação 
 
 
 ## Como Utilizar
