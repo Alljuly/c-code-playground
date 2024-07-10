@@ -17,9 +17,11 @@ _Este repositório contém uma coleção de programas em C desenvolvidos para a 
    - Fibonacci
    - Soma
 
+### Estrutura da dados 
+1. Busca e Ordenação
+2. Ponteiro
 3. Pilhas
    
-4. Busca e Ordenação 
 
 
 ## Como Utilizar
