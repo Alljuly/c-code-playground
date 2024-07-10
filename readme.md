@@ -1,6 +1,6 @@
 # C Code Playground
 
-Bem-vindo ao meu playground de código em C! Este repositório contém uma coleção de programas em C desenvolvidos para a matéria de Estrutura de Dados.
+_Este repositório contém uma coleção de programas em C desenvolvidos para a matéria de Estrutura de Dados._
 
 ### Revisão
 
